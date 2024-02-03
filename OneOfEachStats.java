@@ -33,7 +33,7 @@ public class OneOfEachStats {
 			String gender = "";
 			int fate =0;
 			int i=0;
-			fate = (int) generator.nextDouble();
+			fate = (int) (generator.nextDouble()*2);
 			if (fate == 0)
 			get = get + "g";
 			else
@@ -42,7 +42,7 @@ public class OneOfEachStats {
 			boolean stop = true;
 			while (stop == true)
 			{
-				fate = (int) generator.nextDouble();
+				fate = (int) (generator.nextDouble()*2);
 				  if (fate == 0)
 				  gender = "g";
 				  else 
@@ -56,6 +56,7 @@ public class OneOfEachStats {
 				  }
 				  i++;
 				  fate = 0;
+				  
 			}
 			i++;
 			sum = sum+i;
