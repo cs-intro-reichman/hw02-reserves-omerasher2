@@ -8,16 +8,19 @@ public class DamkaBoard {
         int j = 0;
         while (i<n)
         {
-            if (i%2 != 0)
-            System.out.print(" ");
+           
             while (j<n)
             {
+                if (i%2 == 0)
                 System.out.print("* ");
+                else
+                System.out.print(" *");
                 j++;
             }
             System.out.println();
             j =0;
             i++;
         }
+        }
 	}
-}
+
