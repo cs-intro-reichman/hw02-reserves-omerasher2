@@ -4,7 +4,7 @@
  */
 public class Reverse {
 	public static void main (String[] args){
-		String s = "";
+		String s = args[0];
         String empty = "";
         String mid = "";
         char keep;
