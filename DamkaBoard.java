@@ -9,10 +9,10 @@ public class DamkaBoard {
         while (i<n)
         {
             if (i%2 != 0)
-            System.out.print(" ");
+            System.out.print("  ");
             while (j<n)
             {
-                System.out.print("* ");
+                System.out.print("*  ");
                 j++;
             }
             System.out.println();
