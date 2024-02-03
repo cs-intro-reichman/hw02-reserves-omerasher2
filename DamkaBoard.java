@@ -3,6 +3,21 @@
  */
 public class DamkaBoard {
 	public static void main(String[] args) {
-		//// Put your code here
+		int n = 4;
+        int i = 0;
+        int j = 0;
+        while (i<n)
+        {
+            if (i%2 != 0)
+            System.out.print(" ");
+            while (j<n)
+            {
+                System.out.print(" * ");
+                j++;
+            }
+            System.out.println();
+            j =0;
+            i++;
+        }
 	}
 }
